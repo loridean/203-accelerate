@@ -10,7 +10,9 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
-
+img {
+  width: 100%;
+}
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -39,4 +41,73 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+/* Case studies */
+.case-study {
+  overflow: auto;
+  width: 100%;
+}
+.case-study-sidebar {
+  width: 370px;
+  margin-right: 20px;
+  float: left;
+}
+
+div .case-study-images {
+  width: 100%;
+  height: auto;
+}
+
+
+.services {
+  font-size: 9px;
+  color: #878787;
+}
+.client {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+/* Featured Work Case Studies on Homepage */
+
+.homepage-featured-work {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.individual-featured-work {
+  float: left;
+  width: 31%;
+  margin-right: 3%;
+}
+
+.individual-featured-work:last-of-type {
+  margin: 0;
+}
+
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.individual-featured-work h3 {
+  font-weight: 500;
+  font-size: 16.5px;
+  text-align: center;
+}
+
+ul #menu-social-media-nav .social-media-menu {
+  list-style: none;
+}
+
+.menu-item i._mi {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  padding: 3px 3px 0 3px;
 }
