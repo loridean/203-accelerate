@@ -102,7 +102,11 @@ div .case-study-images {
 /* Footer */
 
 ul #menu-social-media-nav .social-media-menu {
-  list-style: none;
+  list-style-type: none;
+}
+
+ul .social-media-menu li {
+  display: inline;
 }
 
 .menu-item i._mi {
