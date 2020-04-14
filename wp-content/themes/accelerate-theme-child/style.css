@@ -46,6 +46,7 @@ img {
 .case-study {
   overflow: auto;
   width: 100%;
+  margin-top: 5%;
 }
 .case-study-sidebar {
   width: 40%;
@@ -95,10 +96,13 @@ img {
   -webkit-transform: rotate(-45deg);
 }
 
-div .case-study-images {
+.case-study-images {
   width: 60%;
   height: auto;
   float: right;
+}
+
+.case-study-images img {
   margin-bottom: 8%;
 }
 
