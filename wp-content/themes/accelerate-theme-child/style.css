@@ -48,26 +48,64 @@ img {
   width: 100%;
 }
 .case-study-sidebar {
-  width: 370px;
-  margin-right: 20px;
+  width: 40%;
+  padding-right: 8%;
   float: left;
 }
 
-div .case-study-images {
-  width: 100%;
-  height: auto;
+.case-study-sidebar h2 {
+  font: 500 1.5em 'Open Sans', Arial, sans-serif;
 }
-
 
 .services {
-  font-size: 9px;
+  font: .85em 'Open Sans', Arial, sans-serif;
+  text-transform: none;
+  margin: .5em 0 1em;
   color: #878787;
 }
+
 .client {
-  font-size: 11px;
-  font-weight: 300;
+  font: 300 .85em 'Open Sans', Arial, sans-serif;
+  margin: .5em 0 2.5em;
+  color: #2b2b2b;
 }
 
+.case-study-sidebar p {
+  margin-top: 2em;
+  color: #2b2b2b;
+}
+
+.case-study-sidebar strong {
+  font: 600 .8em 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #45ac9d;
+}
+
+.case-study-sidebar i {
+  border: solid #45ac9d;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 1.5px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.case-study-sidebar i.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+div .case-study-images {
+  width: 60%;
+  height: auto;
+  float: right;
+  margin-bottom: 8%;
+}
+
+#navigation {
+  margin: 0 0 -2em 0;
+  width: 100%;
+}
 /* Featured Work Case Studies on Homepage */
 
 .homepage-featured-work {
@@ -101,19 +139,22 @@ div .case-study-images {
 
 /* Footer */
 
-ul #menu-social-media-nav .social-media-menu {
+.social-media-navigation ul {
   list-style-type: none;
 }
 
-ul .social-media-menu li {
+.social-media-menu li {
   display: inline;
+  margin-left: 5px;
+  float: right;
 }
 
 .menu-item i._mi {
   color: #ffffff;
   background-color: #2e2e2e;
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   border-radius: 50%;
-  padding: 3px 3px 0 3px;
+  padding: 3px;
+  font-size: 1.3em;
 }

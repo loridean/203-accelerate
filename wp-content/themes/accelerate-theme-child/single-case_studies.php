@@ -29,7 +29,7 @@ get_header(); ?>
 
 			<?php the_content(); ?>
 
-			<p><strong><a href="<?php echo $link; ?>">Visit Live Site</a></strong></p>
+			<p><strong><a href="<?php echo $link; ?>">Visit Live Site<i class="arrow right"></i></a></strong></p>
 
 				</aside>
 
