@@ -162,3 +162,13 @@ img {
   padding: 3px;
   font-size: 1.3em;
 }
+
+/* Contact Us Page */
+
+.nf-form-content label {
+  font: 17px/1.65 'Open Sans', Arial, sans-serif;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
