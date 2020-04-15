@@ -172,3 +172,9 @@ img {
 .ninja-forms-req-symbol {
   display: none;
 }
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+  background: #45ac9d;
+  float: right;
+  width: 25%;
+}
