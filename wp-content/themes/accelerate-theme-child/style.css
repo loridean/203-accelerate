@@ -165,16 +165,34 @@ img {
 
 /* Contact Us Page */
 
-.nf-form-content label {
-  font: 17px/1.65 'Open Sans', Arial, sans-serif;
+.nf-form-fields-required {
+  display: none;
+}
+
+#nf-label-field-1 {
+    font-weight: 100;
+}
+
+#nf-label-field-2 {
+    font-weight: 100;
+}
+
+  #nf-label-field-3 {
+    font-weight: 100;
 }
 
 .ninja-forms-req-symbol {
   display: none;
 }
 
-.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+#nf-field-4 {
   background: #45ac9d;
   float: right;
   width: 25%;
+}
+
+.contact-us .main-content {
+  margin: auto;
+  width: 70%;
+  flex-grow: inherit;
 }
