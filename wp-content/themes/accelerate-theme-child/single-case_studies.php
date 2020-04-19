@@ -26,7 +26,7 @@ get_header(); ?>
 				<aside class="case-study-sidebar">
 					<h2><?php the_title(); ?></h2>
 					<h5 class="services"><?php echo $services; ?></h5>
-					<h6 class="client">Client: <?php echo $client; ?>p</h6>
+					<h6 class="client">Client: <?php echo $client; ?></h6>
 
 			<?php the_content(); ?>
 
