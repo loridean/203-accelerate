@@ -140,28 +140,6 @@ img {
   text-align: center;
 }
 
-/* Footer */
-
-.social-media-navigation ul {
-  list-style-type: none;
-}
-
-.social-media-menu li {
-  display: inline;
-  margin-left: 5px;
-  float: right;
-}
-
-.menu-item i._mi {
-  color: #ffffff;
-  background-color: #2e2e2e;
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
-  padding: 3px;
-  font-size: 1.3em;
-}
-
 /* Contact Us Page */
 
 .nf-form-fields-required {
@@ -215,4 +193,94 @@ img {
   font: 500 1.5em 'Open Sans', Arial, sans-serif;
   color: white;
   line-height: 1.5em;
+}
+
+.services-intro {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.services-intro h4 {
+  font: 700 .9em 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  }
+
+/* About Page - Services */
+
+.services-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4em;
+  align-items: center;
+}
+
+.services-item>div {
+  /*demo
+  border: red solid;
+  box-sizing:border-box*/
+}
+
+.services-image img {
+  vertical-align: middle;
+  max-width: 216px;
+}
+
+.services-image {
+  width: 23%;
+}
+
+.services-info {
+  width: 65%;
+}
+
+.services-info h2 {
+  font: 600 1.5em 'Open Sans', Arial, sans-serif;
+  margin-top: 0;
+}
+
+.services-list {
+  margin-bottom: 3em;
+}
+
+.services-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.services-item:nth-child(even) div.services-image {
+}
+
+@media (max-width: 768px) {
+  .services-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services-info {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+}
+
+/* Footer */
+
+.social-media-navigation ul {
+  list-style-type: none;
+  margin-block-start: 10%;
+  margin-block-end: 10%;
+}
+
+.social-media-menu li {
+  margin: 0 0 0 5px;
+  float: right;
+}
+
+.menu-item i._mi {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 1.3em;
+  width: 23px;
 }
