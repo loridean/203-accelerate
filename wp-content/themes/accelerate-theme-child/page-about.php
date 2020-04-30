@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: About
+Template Name: About Page
 */
 ?>
 <?php
@@ -44,7 +44,7 @@ Here’s a brief overview of our offered services.</p>
 			$icon = get_field("icon");
 			$size = "custom";
 		?>
-		
+
 	<div class="services-item">
 		<div class="services-image">
 				<?php echo wp_get_attachment_image($icon, $size); ?>
