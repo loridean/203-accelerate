@@ -31,17 +31,36 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
-		register_post_type( 'about',
+		register_post_type( 'services',
         array(
             'labels' => array(
-                'name' => __( 'About' ),
-                'singular_name' => __( 'About' )
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Services' )
             ),
             'public' => true,
-            'has_archive' => true,
-            'rewrite' => array( 'slug' => 'about' ),
+            'has_archive' => false,
         )
     );
+		register_post_type( 'services_intro',
+				array(
+						'labels' => array(
+								'name' => __( 'Services Intro' ),
+								'singular_name' => __( 'Services Intro' )
+						),
+						'public' => true,
+						'has_archive' => false,
+				)
+		);
+		register_post_type( 'contact_box',
+				array(
+						'labels' => array(
+								'name' => __( 'Contact Box' ),
+								'singular_name' => __( 'Contact Box' )
+						),
+						'public' => true,
+						'has_archive' => false,
+				)
+		);
 }
 add_action( 'init', 'create_custom_post_types' );
 

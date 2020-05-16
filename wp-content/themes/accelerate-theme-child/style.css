@@ -201,7 +201,7 @@ img {
   margin: auto;
 }
 
-.services-intro h4 {
+.services-intro h2 {
   font: 700 .9em 'Montserrat', 'Open Sans', Arial, sans-serif;
   text-transform: uppercase;
   }
@@ -214,12 +214,6 @@ img {
   justify-content: space-between;
   margin-top: 4em;
   align-items: center;
-}
-
-.services-item>div {
-  /*demo
-  border: red solid;
-  box-sizing:border-box*/
 }
 
 .services-image img {
@@ -242,6 +236,8 @@ img {
 
 .services-list {
   margin-bottom: 3em;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #bfbfbf;
 }
 
 .services-item:nth-child(even) {
@@ -262,6 +258,54 @@ img {
     margin-top: 1.5em;
   }
 }
+
+/* About Page - Contact box */
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4em;
+  align-items: center;
+  width: 75%;
+  padding: 20px 0 50px;
+}
+
+.contact-box-text {
+  font: 600 1.5em 'Open Sans', Arial, sans-serif;
+  vertical-align: middle;
+  width: 63%;
+}
+
+.contact-box-text h3 {
+  margin: 0;
+}
+
+.contact-box-button {
+  width: 240px;
+}
+
+.contact-box-button .button {
+  background: #45ac9d;
+  border: 0;
+  font: 700 1.2em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+  color: #fff;
+  padding: 1em 2.75em;
+}
+
+@media (max-width: 940px) {
+  .contact-box-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-box-button {
+    width: 100%;
+    margin-top: 1.5em;
+    text-align: center;
+  }
+}
+
+
 
 /* Footer */
 
