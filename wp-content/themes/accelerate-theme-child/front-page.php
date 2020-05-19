@@ -59,4 +59,12 @@ get_header(); ?>
  		</div>
 	</section>
 
+<!-- Twitter widget -->
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area site-content" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
+
 <?php get_footer(); ?>

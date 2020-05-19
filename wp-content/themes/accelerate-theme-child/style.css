@@ -23,9 +23,9 @@ img {
     background: #45ac9d;
 }
 .blog-post {
-	width: 50%;
+	width: 44%;
 	float: left;
-	margin-bottom: 2em;
+	margin: 0 3em 2em 0;
 }
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
@@ -42,6 +42,50 @@ img {
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+/* Twitter widget */
+
+
+#custom-twitter-feeds-widget-2 h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+
+#ctf #ctf-more {
+  text-align: left;
+  margin-left: 4px;
+}
+
+#ctf .ctf-author-name {
+  display: none;
+  margin: 2em 0 .5em;
+}
+
+#ctf .ctf-author-screenname {
+  font: 700 1.5em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  margin: 26px 0 18px;
+}
+
+#ctf .ctf-screename-sep {
+  display: none;
+}
+
+#ctf.ctf-styles .ctf-author-screenname {
+  font-size: 25.5px;
+}
+
+#ctf p.ctf-tweet-text {
+  line-height: 1.65;
+}
+
+#ctf span {
+  font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+  text-align: left;
+}
+
 /* Case studies */
 .case-study {
   overflow: auto;
@@ -263,10 +307,10 @@ img {
 .contact-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 4em;
   align-items: center;
-  width: 75%;
+  width: 70%;
   padding: 20px 0 50px;
 }
 
@@ -277,10 +321,11 @@ img {
 }
 
 .contact-box-text h3 {
-  margin: 0;
+  margin: 0 5px 0 0;
 }
 
 .contact-box-button {
+  margin-left: 5px;
   width: 240px;
 }
 
@@ -327,4 +372,59 @@ img {
   padding: 3px;
   font-size: 1.3em;
   width: 23px;
+}
+
+/* 404 page */
+
+.uhoh {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.uhoh h2 {
+  font: 700 20em 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #45ac9d;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.uhoh img {
+  padding: 0 1em 0 1em;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.uhoh-text {
+  text-align: center;
+}
+
+.uhoh-text h1 {
+  font: 700 3em 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+.uhoh-text a {
+  color: #45ac9d;
+}
+
+.uhoh-text a:hover {
+  color: #45879a;
+}
+
+@media (max-width: 748px) {
+  .uhoh h2 {
+    font-size: 10em;
+  }
+
+  .uhoh-text h1 {
+    font-size: 2em;
+  }
+
+  .uhoh img {
+    width: 180px;
+  }
 }

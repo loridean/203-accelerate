@@ -14,6 +14,7 @@
 function accelerate_child_scripts(){
 	wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' ));
+	wp_enqueue_style('accelerate-google-fonts-uhoh','//fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
@@ -76,3 +77,19 @@ $classes[] = 'contact-us';
 return $classes;
 
 }
+
+// Twitter Widget
+function accelerate_theme_child_widget_init() {
+
+	register_sidebar( array(
+	    'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+	    'id' => 'sidebar-2',
+	    'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+	    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	    'after_widget' => '</aside>',
+	    'before_title' => '<h4 class="widget-title">',
+	    'after_title' => '</h4>',
+	) );
+
+}
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
