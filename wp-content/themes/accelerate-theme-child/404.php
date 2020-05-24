@@ -18,7 +18,7 @@ get_header(); ?>
           <h2>4</h2>
         </div>
         <div class="uhoh-baby">
-    		   <img src="http://localhost:8888/accelerate/wp-content/uploads/2020/05/uhoh-404-border-1.png" alt="uh oh">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/uhoh-404-border.png" alt="uh oh"/>
         </div>
         <div class="uhoh-number">
           <h2>4</h2>

@@ -42,6 +42,15 @@ img {
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Blog Newsletter Sign Up Form */
+
+#mc4wp-form-1 input[type="submit"] {
+  background-color: #45ac9d;
+  padding: 1em 3.75em 2em 3.75em;
+  width: 100%;
+}
+
 /* Twitter widget */
 
 
